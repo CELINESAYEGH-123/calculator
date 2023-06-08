@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.calculator{
+    background-color:black;
+    width:25%;
+    border-radius:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.display{
+    border-radius: 10px;
+    border:black solid 12px;
+    width:100%;
+    background-color: gray;
+    color: white;
+    height: 20vh;
+}
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+button{
+    background-color: white;
+    border: none;
+    padding: 20px;
+    border-radius:20px;
+}
+button:hover{
+    font-weight: bold;
+
+}
